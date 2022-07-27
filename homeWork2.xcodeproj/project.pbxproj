@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		84D7ABC928914AF200114D8F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7ABC828914AF200114D8F /* main.swift */; };
+		84D7ABD028914BB900114D8F /* 2 zadanie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7ABCF28914B6900114D8F /* 2 zadanie.swift */; };
+		84D7ABD428914D2E00114D8F /* 1 zadanie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7ABD328914D2E00114D8F /* 1 zadanie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		84D7ABC528914AF200114D8F /* homeWork2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homeWork2; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D7ABC828914AF200114D8F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84D7ABCF28914B6900114D8F /* 2 zadanie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2 zadanie.swift"; sourceTree = "<group>"; };
+		84D7ABD328914D2E00114D8F /* 1 zadanie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1 zadanie.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,36 @@
 		84D7ABC728914AF200114D8F /* homeWork2 */ = {
 			isa = PBXGroup;
 			children = (
-				84D7ABC828914AF200114D8F /* main.swift */,
+				84D7ABD228914CAC00114D8F /* New Group1 */,
+				84D7ABD128914C3200114D8F /* New Group */,
 			);
 			path = homeWork2;
+			sourceTree = "<group>";
+		};
+		84D7ABD128914C3200114D8F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				84D7ABCF28914B6900114D8F /* 2 zadanie.swift */,
+				84D7ABD528914D5800114D8F /* New Group */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		84D7ABD228914CAC00114D8F /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				84D7ABC828914AF200114D8F /* main.swift */,
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		84D7ABD528914D5800114D8F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				84D7ABD328914D2E00114D8F /* 1 zadanie.swift */,
+			);
+			name = "New Group";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D7ABD428914D2E00114D8F /* 1 zadanie.swift in Sources */,
+				84D7ABD028914BB900114D8F /* 2 zadanie.swift in Sources */,
 				84D7ABC928914AF200114D8F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
